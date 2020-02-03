@@ -1,0 +1,33 @@
+//colors//
+$cyan: hsl(179, 62%, 43%);
+$yellow: hsl(71, 73%, 54%);
+$bluegray-light: hsl(204, 43%, 93%);
+$bluegray-dark: hsl(218, 22%, 67%);
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: $bluegray-light;    
+}
+
+.o-priceGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: 635px;
+    max-height: 475px;
+}
+
+.m-info {
+    grid-column-start: span 2;
+    background-color: #fff;
+    border-radius: 6px 6px 0 0 ;
+}
+
+.m-pricing {
+    background-color: $cyan;
+}
+
+.m-whyUs {
+    background-color: lighten($cyan, 3%);
+}
+

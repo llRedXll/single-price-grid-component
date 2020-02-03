@@ -1,0 +1,31 @@
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: #e5eff5;
+}
+
+.o-priceGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  max-width: 635px;
+  max-height: 475px;
+}
+
+.m-info {
+  -ms-grid-column: span 2;
+      grid-column-start: span 2;
+  background-color: #fff;
+  border-radius: 6px 6px 0 0;
+}
+
+.m-pricing {
+  background-color: #2ab2af;
+}
+
+.m-whyUs {
+  background-color: #2dbebc;
+}
+/*# sourceMappingURL=styles.css.map */
